@@ -1,0 +1,260 @@
+header,nav,article,section,aside,footer{display:block;};
+dl{
+  list-style: none;
+}
+li{
+  list-style:none;
+};
+body{
+  font-size:14px;
+}
+a{
+  font-size:12px;
+  color:#999;
+  text-decoration: none;
+
+}
+h2{
+  font-size: 20px;
+  font-weight:normal;
+}
+.wrap{
+  width: 1170px;
+  margin: 0 auto;
+}
+footer {
+  > div:nth-of-type(1) {
+    height: 100%;
+    background: #f0f0f0;
+  }
+  .wrap {
+    #jian{
+      overflow: hidden;
+      li {
+      float: left;
+      a {
+        height: 185px;
+        width: 280px;
+        display: block;
+        background: url("../../img/icon_gonggaob.png") no-repeat 0 50px;
+      }
+    }
+      li:nth-of-type(2) {
+        a {
+          background: url("../../img/icon_gonggaob.png") no-repeat -340px 50px;
+        }
+      }
+      li:nth-of-type(3) {
+        a {
+          background: url("../../img/icon_gonggaob.png") no-repeat -650px 50px;
+        }
+      }
+      li:nth-of-type(4) {
+        a {
+          background: url("../../img/icon_gonggaob.png") no-repeat -950px 50px;
+        }
+      }
+    }
+
+  }
+
+  .wrap{
+    .app_code{
+      margin-top:50px;
+      overflow: hidden;
+      padding: 0;
+      li{
+        padding: 20px 0 20px 0;
+        float:left;
+        overflow: hidden;
+        width: 380px;
+        background: #f0f0f0;
+        margin-right:10px ;
+      i{
+        margin-left: 30px;
+        float: left;
+        display: block;
+        height: 110px;
+        width: 110px;
+        background:url('../../img/td_code1.jpg');
+      }
+      div{
+        margin-left:20px ;
+        float: left;
+        h2{
+          margin: 0;
+          color: #c7a774;;
+        }
+        p{
+          margin: 0;
+          font-size:14px;
+        }
+      }
+    }
+      li:nth-of-type(2){
+        i{
+          background:url('../../img/td_code2.jpg');
+        }
+      }
+      li:nth-of-type(3){
+        i{
+          background:url('../../img/td_code3.jpg');
+        }
+      }
+    }
+    .shouhou{
+      overflow: hidden;
+      margin-top: 20px;
+      ul{
+        overflow: hidden;
+        float:left;
+      }
+      li{
+        float:left;
+        height: 130px;
+        width: 130px;
+        h2{
+          margin: 0;
+        }
+        p{
+          a{
+            display: block;
+            color:#999;
+            font-size:14px;
+            text-decoration: none;
+            margin-top:10px ;
+          }
+          margin: 0;
+
+        }
+      }
+      .tel{
+        height: 100px;
+        width: 290px;
+        float:left;
+        padding: 15px 0;
+        em{
+          font-style:normal;
+          color:#c7a774;
+          font-size:18px;
+          display: block;
+          text-align: center;
+        }
+        p{
+          display: block;
+          text-align: center;
+        }
+        span{
+          display:block;
+          text-align:center;
+        }
+      }
+    }
+    .w{
+      overflow: hidden;
+      padding-left:220px ;
+      li{
+        float:left;
+      }
+
+    }
+    .f{
+      overflow: hidden;
+      padding-left:270px ;
+      li{
+        float:left;
+      }
+
+    }
+    .y{
+      overflow: hidden;
+      li{
+        float:left;
+      }
+      a{
+        display: block;
+        height: 40px;
+        width: 100px;
+        background: url("http://s.maiyaole.com/images/201306/img/outherLogo.png");
+
+      }
+      li:nth-of-type(2){
+         a{
+           background-position: -110px;
+         }
+       }
+      li:nth-of-type(3){
+        a{
+          background-position: -220px;
+        }
+      }
+      li:nth-of-type(4){
+        a{
+          background-position: -330px;
+        }
+      }
+      li:nth-of-type(5){
+        a{
+          background-position: -440px;
+        }
+      }
+      li:nth-of-type(6){
+        a{
+          background-position: -550px;
+        }
+      }
+      li:nth-of-type(7){
+        a{
+          background-position: -660px;
+        }
+      }
+      li:nth-of-type(8){
+        a{
+          background-position: -770px;
+        }
+      }
+      li:nth-of-type(9){
+        a{
+          background-position: -880px;
+        }
+      }
+      li:nth-of-type(10){
+        a{
+          width: 117px;
+          background: url('http://wljg.gdgs.gov.cn/upload/image/20141126/20141126002933.png');
+        }
+      }
+    }
+    .w1{
+      padding-left:220px ;
+      overflow: hidden;
+      a{
+        display: block;
+        float:left;
+      }
+      p{
+        display:block;
+        float:left;
+        margin: 0;
+      }
+
+    }
+    >p{
+       text-align: center;
+     }
+    .f1{
+      overflow: hidden;
+      padding-left: 300px;
+      a{
+        float:left;
+        display: block;
+        background:url('http://s.maiyaole.com/images/201306/images/copy_ico.png') no-repeat;
+        text-indent: 20px;
+      }
+      p{
+        float:left;
+        margin: 0;
+      }
+    }
+  }
+}

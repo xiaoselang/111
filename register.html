@@ -2,9 +2,84 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>注册1药网</title>
+    <link rel="stylesheet" href="style/public/normalize.css">
+    <!--<link rel="stylesheet" href="style/public/public.css">-->
+    <link rel="stylesheet" href="style/style/register.css">
+    <script src="js/html5shiv.min.js"></script>
 </head>
 <body>
+<header>
+    <div class="wrap">
+        <a href="index.html">
+            <img src="http://s.maiyaole.com/images/passport/yao_logo.png" alt="">
+        </a>
+
+    </div>
+
+</header>
+<section>
+    <div class="wrap">
+        <h2>Hi，欢迎注册！<span>我已经注册，现在就<a href="login.html">登录</a></span></h2>
+
+        <form class="res-list" action="">
+            <div class="tel"><input type="text" placeholder="手机号">
+                <em></em>
+                <span>不能为空</span>
+                <i>手机号格式不正确</i>
+            </div>
+            <div class="pwd"><input type="text"placeholder="登录密码">
+                <em></em>
+                <span>密码不能为空</span>
+                <span>密码只能为6-20位字符</span>
+                <span>密码不能为全数字</span>
+            </div>
+            <div class="q-pwd"><input type="text"placeholder="确认密码">
+                <span>再次输入密码</span>
+                <span>密码不能为空</span>
+                <span>两次密码不一致</span></div>
+            <div class="keycode"><input type="text"placeholder="验证码"><span></span><a href="javascript:void(0)">换一张</a>
+            <p>请输入验证密码</p><p>验证码错误</p></div>
+            <div class="check"><input type="checkbox"checked><p>我已阅读并同意 </p><a href="javascript:void(0)">《1药网服务协议》</a><span>请勾选1药网服务协议</span></div>
+            <div class="btn"><input type="button" value="立即注册"></div>
+            <div id="pay">
+                <p>使用合作伙伴账号登录:</p>
+                <ul>
+                    <li><a href="javascript:void(0)"></a></li>
+                    <li><a href="javascript:void(0)"></a></li>
+                    <li><a href="javascript:void(0)"></a></li>
+                    <li><a href="javascript:void(0)"></a></li>
+                    <li><a href="javascript:void(0)"></a></li>
+                    <li><a href="javascript:void(0)"></a></li>
+                </ul>
+            </div>
+        </form>
+        <div class="pic">
+            <img src="http://s.maiyaole.com/images/passport/r_bg_02.png" alt="">
+        </div>
+    </div>
+</section>
+<footer>
+    <ul class="zheng">
+        <li><a href="javascript:void(0)">关于1药网</a><span>|</span></li>
+        <li><a href="javascript:void(0)"> 互联网药品交易资格证</a><span> |</span></li>
+        <li><a href="javascript:void(0)">互联网药品信息服务资格证</a><span>|</span></li>
+    </ul>
+    <ul class="zheng2">
+        <li><a href="javascript:void(0)">连锁营业执照 </a><span>|</span></li>
+        <li><a href="javascript:void(0)">保健食品卫生许可证</a><span>|</span></li>
+        <li><a href="javascript:void(0)"> 医疗器械许可证</a><span>|</span></li>
+        <li><a href="javascript:void(0)">食品流通许可证</a><span>|</span></li>
+        <li><a href="javascript:void(0)">GSP证书</a><span>|</span></li>
+        <li><a href="javascript:void(0)">粤ICP备12015869号</a></li>
+    </ul>
+    <p>Copyright© 1药网 2010-2015， All Rights Reserved</p>
+</footer>
 
 </body>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/jquery.lazyload.min.js"></script>
+
+<script src="js/jquery.cookie.js"></script>
+<script src="js/register.js"></script>
 </html>

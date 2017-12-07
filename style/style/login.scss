@@ -1,0 +1,476 @@
+header,nav,article,section,aside,footer{display:block;};
+$n1: 0px;
+$n2: -47px;
+$n3 : -95px;
+$n4 : -143px;
+$n5: -191px;
+$n6: -239px;
+$n7:-295px ;
+$bgimglist1:$n1 $n2 $n3 ;
+$bgimglist2:$n4 $n5 $n6 $n7;
+dl{
+  list-style: none;
+}
+li{
+  list-style:none;
+};
+body{
+  font-size:14px;
+}
+a{
+  font-size:12px;
+  color:#999;
+  text-decoration: none;
+
+}
+h2{
+  font-size: 20px;
+  font-weight:normal;
+}
+.wrap{
+  width: 990px;
+  margin: 0 auto;
+}
+header{
+  a{
+    display: block;
+  }
+}
+
+section {
+  .wrap {
+    border: 1px solid #999;
+    border-top: 2px solid #0C6796;
+    overflow: hidden;
+    position: relative;
+    > ul {
+      overflow: hidden;
+      li {
+        width: 154px;
+        height: 25px;
+        color: #333;
+        float: left;
+        line-height: 25px;
+        margin-right: 20px;
+        text-align: center;
+      }
+    }
+    #putong {
+      float: right;
+      width: 430px;
+      .tel {
+        position: relative;
+        border: 1px solid #e6e6e6;
+        height: 40px;
+        width: 340px;
+        margin-bottom: 30px;
+        margin-left: 40px;
+        input {
+          display: block;
+          width: 286px;
+          height: 26px;
+          padding: 6px 12px 6px 40px;
+          background: url("http://s.maiyaole.com/images/passport/regest.png") no-repeat 10px -114px;
+          border: 0
+        }
+        input:focus {
+          outline: none
+        }
+      }
+      .pwd {
+        position: relative;
+        border: 1px solid #e6e6e6;
+        height: 40px;
+        width: 340px;
+        margin-bottom: 30px;
+        margin-left: 40px;
+        input {
+          display: block;
+          width: 286px;
+          height: 26px;
+          padding: 6px 12px 6px 40px;
+          background: url("http://s.maiyaole.com/images/passport/regest.png") no-repeat 10px -145px;
+          border: 0
+        }
+        input:focus {
+          outline: none
+        }
+      }
+      .keycode {
+        position: relative;
+        border: 1px solid #e6e6e6;
+        height: 40px;
+        width: 184px;
+        margin-left:40px ;
+        margin-bottom: 30px;
+        input {
+          display: block;
+          width: 170px;
+          height: 26px;
+          padding: 6px 12px 6px 0px;
+          border: 0
+        }
+        input:focus {
+          outline: none
+        }
+        span {
+          position: absolute;
+          display: block;
+          font-size: 16px;
+          width: 100px;
+          height: 40px;
+          text-align:center;
+          line-height: 40px;
+          left: 184px;
+          top: 0px;
+          border:1px solid #999;
+        }
+        a{
+          display: block;
+          width: 40px;
+          position: absolute;
+          top:15px;
+          left:290px;
+          color:#0C6796;
+        }
+        a:hover{
+          text-decoration: underline;
+        }
+        p{
+          margin: 0;
+          position: absolute;
+          left:0;
+          top:42px;
+          color:red;
+        }
+      }
+      .check{
+        margin-left:40px ;
+        input{
+          float:left;
+        }
+        p{
+          dispaly:block;
+          margin: 0;
+          float:left;
+
+        }
+      }
+      .btn{
+        margin-left: 40px;
+        input{
+          cursor: pointer;
+          width: 340px;
+          height: 36px;
+          background:#0C6796;
+          color:#fff;
+          line-height: 40px;
+          text-align: center;
+          border: 0;
+        };
+      }
+      .pay{
+        height: 160px;
+        margin-left:40px ;
+        overflow: hidden;
+        position: relative;
+        .bat {
+
+          overflow: hidden;
+          float:left;
+          li {
+            float: left;
+            a {
+              display: block;
+              height: 39px;
+              width: 39px;
+              border-radius: 20px;
+
+              background: url("../../img/img_zhifu.png");
+              margin-right: 10px;
+            }
+
+          }
+          @for $i from 1 to length($bgimglist1)+1 {
+          li:nth-child(#{$i}) a {
+            background: url('../../img/img_zhifu.png') no-repeat nth($bgimglist1, $i) 0;
+          }
+        }
+        }
+        span{
+          display: block;
+          width: 100px;
+          height: 15px;
+          font-size: 14px;
+          overflow: hidden;
+        }
+        em{
+          display: block;
+          float:right;
+          width: 15px;
+          height: 15px;
+          background: url("http://s.maiyaole.com/images/201306/images/private/upanddown.png")no-repeat -5px -6px ;
+        }
+          .more{
+            display: none;
+            overflow: hidden;
+            position: absolute;
+            top:100px;
+            li{
+              float:left;
+              a{
+                display: block;
+                height: 39px;
+                width: 39px;
+                border-radius: 20px;
+
+                background: url("../../img/img_zhifu.png");
+                margin-right: 10px;
+              }
+            }
+            @for $i from 1 to length($bgimglist2)+1 {
+              li:nth-child(#{$i}) a {
+                background: url('../../img/img_zhifu.png') no-repeat nth($bgimglist2, $i) 0;
+              }
+            }
+        }
+
+      }
+
+    }
+    #telres {
+      position:absolute;
+      top:53px;
+      left:560px;
+      float: right;
+      width: 430px;
+      display: none;
+      .tel {
+        position: relative;
+        border: 1px solid #e6e6e6;
+        height: 40px;
+        width: 340px;
+        margin-bottom: 30px;
+        margin-left: 40px;
+        input {
+          display: block;
+          width: 286px;
+          height: 26px;
+          padding: 6px 12px 6px 40px;
+          background: url("http://s.maiyaole.com/images/passport/regest.png") no-repeat 10px -114px;
+          border: 0
+        }
+        input:focus {
+          outline: none
+        }
+      }
+      .pwd {
+        position: relative;
+        border: 1px solid #e6e6e6;
+        height: 40px;
+        width: 340px;
+        margin-bottom: 30px;
+        margin-left: 40px;
+        input {
+          display: block;
+          width: 286px;
+          height: 26px;
+          padding: 6px 12px 6px 40px;
+          background: url("http://s.maiyaole.com/images/passport/regest.png") no-repeat 10px -145px;
+          border: 0
+        }
+        input:focus {
+          outline: none
+        }
+      }
+      .keycode {
+        position: relative;
+        border: 1px solid #e6e6e6;
+        height: 40px;
+        width: 184px;
+        margin-left:40px ;
+        margin-bottom: 30px;
+        input {
+          display: block;
+          width: 170px;
+          height: 26px;
+          padding: 6px 12px 6px 0px;
+          border: 0
+        }
+        input:focus {
+          outline: none
+        }
+        span {
+          position: absolute;
+          display: block;
+          font-size: 16px;
+          width: 100px;
+          height: 40px;
+          text-align:center;
+          line-height: 40px;
+          left: 184px;
+          top: 0px;
+          border:1px solid #999;
+        }
+        a{
+          display: block;
+          width: 40px;
+          position: absolute;
+          top:15px;
+          left:290px;
+          color:#0C6796;
+        }
+        a:hover{
+          text-decoration: underline;
+        }
+        p{
+          margin: 0;
+          position: absolute;
+          left:0;
+          top:42px;
+          color:red;
+        }
+      }
+      .check{
+        margin-left:40px ;
+        input{
+          float:left;
+        }
+        p{
+          dispaly:block;
+          margin: 0;
+          float:left;
+
+        }
+      }
+      .btn{
+        margin-left: 40px;
+        input{
+          cursor: pointer;
+          width: 340px;
+          height: 36px;
+          background:#0C6796;
+          color:#fff;
+          line-height: 40px;
+          text-align: center;
+          border: 0;
+        };
+      }
+      .pay{
+        height: 160px;
+        margin-left:40px ;
+        overflow: hidden;
+        position: relative;
+        .bat {
+
+          overflow: hidden;
+          float:left;
+          li {
+            float: left;
+            a {
+              display: block;
+              height: 39px;
+              width: 39px;
+              border-radius: 20px;
+
+              background: url("../../img/img_zhifu.png");
+              margin-right: 10px;
+            }
+
+          }
+          @for $i from 1 to length($bgimglist1)+1 {
+            li:nth-child(#{$i}) a {
+              background: url('../../img/img_zhifu.png') no-repeat nth($bgimglist1, $i) 0;
+            }
+          }
+        }
+        span{
+          display: block;
+          width: 100px;
+          height: 15px;
+          font-size: 14px;
+          overflow: hidden;
+        }
+        em{
+          display: block;
+          float:right;
+          width: 15px;
+          height: 15px;
+          background: url("http://s.maiyaole.com/images/201306/images/private/upanddown.png")no-repeat -5px -6px ;
+        }
+        .more{
+          display: none;
+          overflow: hidden;
+          position: absolute;
+          top:100px;
+          li{
+            float:left;
+            a{
+              display: block;
+              height: 39px;
+              width: 39px;
+              border-radius: 20px;
+
+              background: url("../../img/img_zhifu.png");
+              margin-right: 10px;
+            }
+          }
+          @for $i from 1 to length($bgimglist2)+1 {
+            li:nth-child(#{$i}) a {
+              background: url('../../img/img_zhifu.png') no-repeat nth($bgimglist2, $i) 0;
+            }
+          }
+        }
+
+      }
+
+    }
+    img {
+      display: block;
+      float: left;
+
+    }
+
+    h2 {
+      padding-left: 40px;
+      color: #5e5e5e;
+      font-size: 20px;
+      p {
+        float: right;
+        font-size: 12px;
+        a {
+          color: #0aa5df;
+        }
+        a:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+  }
+}
+footer{
+  .zheng{
+    overflow: hidden;
+    padding-left: 480px;
+    li{
+      float: left;
+      a{
+        margin: 2px 10px;
+      }
+    }
+  }
+  .zheng2{
+    overflow: hidden;
+    padding-left: 380px;
+    li{
+      float: left;
+      a{
+        margin: 2px 10px;
+      }
+    }
+  }
+  p{
+    text-align: center;
+  }
+}

@@ -1,3 +1,166 @@
+.add1 {
+  display: block;
+  margin: 0;
+  float: left;
+  padding-right: 10px; }
 
+.add2 {
+  display: block;
+  float: left;
+  padding-right: 10px; }
+
+.add3 {
+  overflow: hidden;
+  float: none;
+  background: #fff; }
+
+header .wrap {
+  overflow: hidden; }
+header .h-nav {
+  width: 100%;
+  background: #f1f1f1; }
+  header .h-nav .wrap {
+    overflow: visible;
+    height: 46px; }
+header .address {
+  float: left;
+  overflow: hidden;
+  margin: 0;
+  padding: 14px 0; }
+  header .address > li {
+    float: left;
+    padding-right: 10px;
+    border-right: 1px solid #fefefe; }
+header .login {
+  overflow: visible;
+  float: right; }
+  header .login .mine {
+    position: relative; }
+    header .login .mine ul {
+      position: absolute;
+      padding: 0;
+      left: 10px;
+      top: 15px;
+      background: #fff;
+      display: none; }
+  header .login > li {
+    float: left;
+    padding: 0 10px;
+    color: #c7a774; }
+    header .login > li a {
+      display: block;
+      float: left;
+      padding-right: 5px;
+      font-size: 12px; }
+  header .login > li:nth-of-type(1) a:nth-of-type(1) {
+    color: #e54948; }
+header > .wrap > ul {
+  overflow: hidden;
+  margin-top: 30px; }
+header > .wrap .logo {
+  margin-right: 40px; }
+header > .wrap #reserch {
+  margin-right: 40px; }
+header > .wrap li {
+  float: left;
+  overflow: hidden; }
+  header > .wrap li div {
+    border: 1px solid #c7a774;
+    float: left; }
+  header > .wrap li input {
+    display: block;
+    border: none; }
+  header > .wrap li input:focus {
+    outline: none; }
+  header > .wrap li .reserch input {
+    height: 44px;
+    width: 435px;
+    padding: 0 5px 0 9px; }
+  header > .wrap li .btn input {
+    height: 44px;
+    width: 80px;
+    background: url("http://s.maiyaole.com/images/201306/images/search.png") no-repeat 30px 12px; }
+  header > .wrap li ul {
+    overflow: hidden; }
+  header > .wrap li li {
+    padding-right: 12px; }
+  header > .wrap li .saoyisao {
+    float: left; }
+  header > .wrap li .chart {
+    border: 1px solid #5e5e5e;
+    overflow: hidden;
+    height: 36px;
+    width: 140px;
+    background: url("../../img/common_sprite.png") 0 -310px;
+    position: relative;
+    margin-left: 20px; }
+    header > .wrap li .chart span {
+      position: absolute;
+      display: block;
+      float: left;
+      background: red;
+      border-radius: 20px;
+      height: 12px;
+      padding: 2px 4px;
+      color: #fff;
+      font-size: 12px;
+      left: 20px;
+      top: 5px;
+      text-align: center;
+      line-height: 12px; }
+    header > .wrap li .chart p {
+      display: block;
+      float: left;
+      margin: 0;
+      position: absolute;
+      left: 50px;
+      top: 10px;
+      width: 53px;
+      background: url("../../img/common_sprite.png")-120px -322px; }
+
+.louti {
+  position: fixed;
+  top: 90px;
+  z-index: 111; }
+  .louti .xianshi {
+    display: block;
+    height: 32px;
+    width: 38px;
+    border: 1px solid #E6E6E6;
+    padding: 5px 0;
+    text-align: center;
+    color: #157cdb;
+    font-size: 12px;
+    line-height: 16px;
+    background: #fff; }
+  .louti li a {
+    display: block;
+    height: 42px;
+    width: 38px;
+    border: 1px solid #E6E6E6;
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;
+    position: relative; }
+  .louti li span {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 42px;
+    width: 38px;
+    line-height: 42px;
+    background: #fff; }
+  .louti li p {
+    position: absolute;
+    display: block;
+    background: #157CDB;
+    color: #fff;
+    top: 0;
+    left: 0;
+    height: 42px;
+    width: 38px;
+    margin: 0;
+    display: none; }
 
 /*# sourceMappingURL=index.css.map */

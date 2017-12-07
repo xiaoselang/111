@@ -1,3 +1,384 @@
+header, nav, article, section, aside, footer {
+  display: block; }
 
+dl {
+  list-style: none; }
+
+li {
+  list-style: none; }
+
+body {
+  font-size: 14px; }
+
+a {
+  font-size: 12px;
+  color: #999;
+  text-decoration: none; }
+
+h2 {
+  font-size: 20px;
+  font-weight: normal; }
+
+.wrap {
+  width: 990px;
+  margin: 0 auto; }
+
+header a {
+  display: block; }
+
+section .wrap {
+  border: 1px solid #999;
+  border-top: 2px solid #0C6796;
+  overflow: hidden;
+  position: relative; }
+  section .wrap > ul {
+    overflow: hidden; }
+    section .wrap > ul li {
+      width: 154px;
+      height: 25px;
+      color: #333;
+      float: left;
+      line-height: 25px;
+      margin-right: 20px;
+      text-align: center; }
+  section .wrap #putong {
+    float: right;
+    width: 430px; }
+    section .wrap #putong .tel {
+      position: relative;
+      border: 1px solid #e6e6e6;
+      height: 40px;
+      width: 340px;
+      margin-bottom: 30px;
+      margin-left: 40px; }
+      section .wrap #putong .tel input {
+        display: block;
+        width: 286px;
+        height: 26px;
+        padding: 6px 12px 6px 40px;
+        background: url("http://s.maiyaole.com/images/passport/regest.png") no-repeat 10px -114px;
+        border: 0; }
+      section .wrap #putong .tel input:focus {
+        outline: none; }
+    section .wrap #putong .pwd {
+      position: relative;
+      border: 1px solid #e6e6e6;
+      height: 40px;
+      width: 340px;
+      margin-bottom: 30px;
+      margin-left: 40px; }
+      section .wrap #putong .pwd input {
+        display: block;
+        width: 286px;
+        height: 26px;
+        padding: 6px 12px 6px 40px;
+        background: url("http://s.maiyaole.com/images/passport/regest.png") no-repeat 10px -145px;
+        border: 0; }
+      section .wrap #putong .pwd input:focus {
+        outline: none; }
+    section .wrap #putong .keycode {
+      position: relative;
+      border: 1px solid #e6e6e6;
+      height: 40px;
+      width: 184px;
+      margin-left: 40px;
+      margin-bottom: 30px; }
+      section .wrap #putong .keycode input {
+        display: block;
+        width: 170px;
+        height: 26px;
+        padding: 6px 12px 6px 0px;
+        border: 0; }
+      section .wrap #putong .keycode input:focus {
+        outline: none; }
+      section .wrap #putong .keycode span {
+        position: absolute;
+        display: block;
+        font-size: 16px;
+        width: 100px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        left: 184px;
+        top: 0px;
+        border: 1px solid #999; }
+      section .wrap #putong .keycode a {
+        display: block;
+        width: 40px;
+        position: absolute;
+        top: 15px;
+        left: 290px;
+        color: #0C6796; }
+      section .wrap #putong .keycode a:hover {
+        text-decoration: underline; }
+      section .wrap #putong .keycode p {
+        margin: 0;
+        position: absolute;
+        left: 0;
+        top: 42px;
+        color: red; }
+    section .wrap #putong .check {
+      margin-left: 40px; }
+      section .wrap #putong .check input {
+        float: left; }
+      section .wrap #putong .check p {
+        dispaly: block;
+        margin: 0;
+        float: left; }
+    section .wrap #putong .btn {
+      margin-left: 40px; }
+      section .wrap #putong .btn input {
+        cursor: pointer;
+        width: 340px;
+        height: 36px;
+        background: #0C6796;
+        color: #fff;
+        line-height: 40px;
+        text-align: center;
+        border: 0; }
+    section .wrap #putong .pay {
+      height: 160px;
+      margin-left: 40px;
+      overflow: hidden;
+      position: relative; }
+      section .wrap #putong .pay .bat {
+        overflow: hidden;
+        float: left; }
+        section .wrap #putong .pay .bat li {
+          float: left; }
+          section .wrap #putong .pay .bat li a {
+            display: block;
+            height: 39px;
+            width: 39px;
+            border-radius: 20px;
+            background: url("../../img/img_zhifu.png");
+            margin-right: 10px; }
+        section .wrap #putong .pay .bat li:nth-child(1) a {
+          background: url("../../img/img_zhifu.png") no-repeat 0px 0; }
+        section .wrap #putong .pay .bat li:nth-child(2) a {
+          background: url("../../img/img_zhifu.png") no-repeat -47px 0; }
+        section .wrap #putong .pay .bat li:nth-child(3) a {
+          background: url("../../img/img_zhifu.png") no-repeat -95px 0; }
+      section .wrap #putong .pay span {
+        display: block;
+        width: 100px;
+        height: 15px;
+        font-size: 14px;
+        overflow: hidden; }
+      section .wrap #putong .pay em {
+        display: block;
+        float: right;
+        width: 15px;
+        height: 15px;
+        background: url("http://s.maiyaole.com/images/201306/images/private/upanddown.png") no-repeat -5px -6px; }
+      section .wrap #putong .pay .more {
+        display: none;
+        overflow: hidden;
+        position: absolute;
+        top: 100px; }
+        section .wrap #putong .pay .more li {
+          float: left; }
+          section .wrap #putong .pay .more li a {
+            display: block;
+            height: 39px;
+            width: 39px;
+            border-radius: 20px;
+            background: url("../../img/img_zhifu.png");
+            margin-right: 10px; }
+        section .wrap #putong .pay .more li:nth-child(1) a {
+          background: url("../../img/img_zhifu.png") no-repeat -143px 0; }
+        section .wrap #putong .pay .more li:nth-child(2) a {
+          background: url("../../img/img_zhifu.png") no-repeat -191px 0; }
+        section .wrap #putong .pay .more li:nth-child(3) a {
+          background: url("../../img/img_zhifu.png") no-repeat -239px 0; }
+        section .wrap #putong .pay .more li:nth-child(4) a {
+          background: url("../../img/img_zhifu.png") no-repeat -295px 0; }
+  section .wrap #telres {
+    position: absolute;
+    top: 53px;
+    left: 560px;
+    float: right;
+    width: 430px;
+    display: none; }
+    section .wrap #telres .tel {
+      position: relative;
+      border: 1px solid #e6e6e6;
+      height: 40px;
+      width: 340px;
+      margin-bottom: 30px;
+      margin-left: 40px; }
+      section .wrap #telres .tel input {
+        display: block;
+        width: 286px;
+        height: 26px;
+        padding: 6px 12px 6px 40px;
+        background: url("http://s.maiyaole.com/images/passport/regest.png") no-repeat 10px -114px;
+        border: 0; }
+      section .wrap #telres .tel input:focus {
+        outline: none; }
+    section .wrap #telres .pwd {
+      position: relative;
+      border: 1px solid #e6e6e6;
+      height: 40px;
+      width: 340px;
+      margin-bottom: 30px;
+      margin-left: 40px; }
+      section .wrap #telres .pwd input {
+        display: block;
+        width: 286px;
+        height: 26px;
+        padding: 6px 12px 6px 40px;
+        background: url("http://s.maiyaole.com/images/passport/regest.png") no-repeat 10px -145px;
+        border: 0; }
+      section .wrap #telres .pwd input:focus {
+        outline: none; }
+    section .wrap #telres .keycode {
+      position: relative;
+      border: 1px solid #e6e6e6;
+      height: 40px;
+      width: 184px;
+      margin-left: 40px;
+      margin-bottom: 30px; }
+      section .wrap #telres .keycode input {
+        display: block;
+        width: 170px;
+        height: 26px;
+        padding: 6px 12px 6px 0px;
+        border: 0; }
+      section .wrap #telres .keycode input:focus {
+        outline: none; }
+      section .wrap #telres .keycode span {
+        position: absolute;
+        display: block;
+        font-size: 16px;
+        width: 100px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        left: 184px;
+        top: 0px;
+        border: 1px solid #999; }
+      section .wrap #telres .keycode a {
+        display: block;
+        width: 40px;
+        position: absolute;
+        top: 15px;
+        left: 290px;
+        color: #0C6796; }
+      section .wrap #telres .keycode a:hover {
+        text-decoration: underline; }
+      section .wrap #telres .keycode p {
+        margin: 0;
+        position: absolute;
+        left: 0;
+        top: 42px;
+        color: red; }
+    section .wrap #telres .check {
+      margin-left: 40px; }
+      section .wrap #telres .check input {
+        float: left; }
+      section .wrap #telres .check p {
+        dispaly: block;
+        margin: 0;
+        float: left; }
+    section .wrap #telres .btn {
+      margin-left: 40px; }
+      section .wrap #telres .btn input {
+        cursor: pointer;
+        width: 340px;
+        height: 36px;
+        background: #0C6796;
+        color: #fff;
+        line-height: 40px;
+        text-align: center;
+        border: 0; }
+    section .wrap #telres .pay {
+      height: 160px;
+      margin-left: 40px;
+      overflow: hidden;
+      position: relative; }
+      section .wrap #telres .pay .bat {
+        overflow: hidden;
+        float: left; }
+        section .wrap #telres .pay .bat li {
+          float: left; }
+          section .wrap #telres .pay .bat li a {
+            display: block;
+            height: 39px;
+            width: 39px;
+            border-radius: 20px;
+            background: url("../../img/img_zhifu.png");
+            margin-right: 10px; }
+        section .wrap #telres .pay .bat li:nth-child(1) a {
+          background: url("../../img/img_zhifu.png") no-repeat 0px 0; }
+        section .wrap #telres .pay .bat li:nth-child(2) a {
+          background: url("../../img/img_zhifu.png") no-repeat -47px 0; }
+        section .wrap #telres .pay .bat li:nth-child(3) a {
+          background: url("../../img/img_zhifu.png") no-repeat -95px 0; }
+      section .wrap #telres .pay span {
+        display: block;
+        width: 100px;
+        height: 15px;
+        font-size: 14px;
+        overflow: hidden; }
+      section .wrap #telres .pay em {
+        display: block;
+        float: right;
+        width: 15px;
+        height: 15px;
+        background: url("http://s.maiyaole.com/images/201306/images/private/upanddown.png") no-repeat -5px -6px; }
+      section .wrap #telres .pay .more {
+        display: none;
+        overflow: hidden;
+        position: absolute;
+        top: 100px; }
+        section .wrap #telres .pay .more li {
+          float: left; }
+          section .wrap #telres .pay .more li a {
+            display: block;
+            height: 39px;
+            width: 39px;
+            border-radius: 20px;
+            background: url("../../img/img_zhifu.png");
+            margin-right: 10px; }
+        section .wrap #telres .pay .more li:nth-child(1) a {
+          background: url("../../img/img_zhifu.png") no-repeat -143px 0; }
+        section .wrap #telres .pay .more li:nth-child(2) a {
+          background: url("../../img/img_zhifu.png") no-repeat -191px 0; }
+        section .wrap #telres .pay .more li:nth-child(3) a {
+          background: url("../../img/img_zhifu.png") no-repeat -239px 0; }
+        section .wrap #telres .pay .more li:nth-child(4) a {
+          background: url("../../img/img_zhifu.png") no-repeat -295px 0; }
+  section .wrap img {
+    display: block;
+    float: left; }
+  section .wrap h2 {
+    padding-left: 40px;
+    color: #5e5e5e;
+    font-size: 20px; }
+    section .wrap h2 p {
+      float: right;
+      font-size: 12px; }
+      section .wrap h2 p a {
+        color: #0aa5df; }
+      section .wrap h2 p a:hover {
+        text-decoration: underline; }
+
+footer .zheng {
+  overflow: hidden;
+  padding-left: 480px; }
+  footer .zheng li {
+    float: left; }
+    footer .zheng li a {
+      margin: 2px 10px; }
+footer .zheng2 {
+  overflow: hidden;
+  padding-left: 380px; }
+  footer .zheng2 li {
+    float: left; }
+    footer .zheng2 li a {
+      margin: 2px 10px; }
+footer p {
+  text-align: center; }
 
 /*# sourceMappingURL=login.css.map */
