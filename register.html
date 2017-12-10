@@ -22,26 +22,28 @@
     <div class="wrap">
         <h2>Hi，欢迎注册！<span>我已经注册，现在就<a href="login.html">登录</a></span></h2>
 
-        <form class="res-list" action="">
-            <div class="tel"><input type="text" placeholder="手机号">
-                <em></em>
-                <span>不能为空</span>
-                <i>手机号格式不正确</i>
+        <form class="res-list" action="php/register.php">
+            <div class="tel"><input type="text" placeholder="手机号"name="tel">
+                <em class="hide"></em>
+                <span class="hide">不能为空</span>
+                <i class="hide">手机号格式不正确</i>
             </div>
-            <div class="pwd"><input type="text"placeholder="登录密码">
-                <em></em>
-                <span>密码不能为空</span>
-                <span>密码只能为6-20位字符</span>
-                <span>密码不能为全数字</span>
+            <div class="pwd"><input type="password"placeholder="登录密码">
+                <em class="hide"></em>
+                <span class="hide">密码不能为空</span>
+                <span class="hide">密码只能为6-20位字符</span>
+                <span class="hide">密码不能为全数字</span>
             </div>
-            <div class="q-pwd"><input type="text"placeholder="确认密码">
+            <div class="q-pwd"><input type="password"placeholder="确认密码"name="pwd">
                 <span>再次输入密码</span>
-                <span>密码不能为空</span>
-                <span>两次密码不一致</span></div>
+                <span class="hide">密码不能为空</span>
+                <span class="hide">两次密码不一致</span>
+                <em class="hide"></em></div>
+
             <div class="keycode"><input type="text"placeholder="验证码"><span></span><a href="javascript:void(0)">换一张</a>
-            <p>请输入验证密码</p><p>验证码错误</p></div>
+            <p class="hide">请输入验证码</p><p class="hide">验证码错误</p><em></em></div>
             <div class="check"><input type="checkbox"checked><p>我已阅读并同意 </p><a href="javascript:void(0)">《1药网服务协议》</a><span>请勾选1药网服务协议</span></div>
-            <div class="btn"><input type="button" value="立即注册"></div>
+            <div class="btn"><input type="submit" value="立即注册"></div>
             <div id="pay">
                 <p>使用合作伙伴账号登录:</p>
                 <ul>

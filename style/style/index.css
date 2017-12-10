@@ -14,6 +14,9 @@
   float: none;
   background: #fff; }
 
+html, body {
+  width: 100%; }
+
 header .wrap {
   overflow: hidden; }
 header .h-nav {
@@ -56,7 +59,8 @@ header .login {
     color: #e54948; }
 header > .wrap > ul {
   overflow: hidden;
-  margin-top: 30px; }
+  margin-top: 30px;
+  padding-left: 0px; }
 header > .wrap .logo {
   margin-right: 40px; }
 header > .wrap #reserch {
@@ -118,6 +122,153 @@ header > .wrap li {
       width: 53px;
       background: url("../../img/common_sprite.png")-120px -322px; }
 
+section .warp {
+  overflow: hidden; }
+section .menu {
+  float: left;
+  padding-left: 0;
+  margin-top: 0; }
+  section .menu a {
+    display: block;
+    height: 48px;
+    width: 165px;
+    background: #19323a;
+    font-size: 16px;
+    line-height: 48px;
+    color: #fff; }
+  section .menu li a {
+    background: #5E5E5E;
+    height: 40px;
+    line-height: 48px; }
+section .banner {
+  float: right; }
+section .b-nav {
+  padding-left: 0px;
+  margin: 0;
+  height: 48px; }
+  section .b-nav li {
+    float: left; }
+    section .b-nav li a {
+      display: block;
+      height: 48px;
+      padding: 0 15px;
+      line-height: 48px;
+      font-size: 16px; }
+section .s-ban {
+  overflow: hidden; }
+section .ban {
+  float: left;
+  position: relative;
+  overflow: hidden;
+  width: 750px;
+  height: 400px;
+  padding-left: 0px;
+  margin: 0; }
+  section .ban > li {
+    position: absolute;
+    left: 0;
+    top: 0; }
+  section .ban > li a {
+    display: block;
+    width: 750px;
+    height: 400px; }
+section .zaixianzixun {
+  float: right;
+  width: 250px;
+  position: relative; }
+  section .zaixianzixun > span {
+    display: block;
+    width: 64px;
+    height: 22px;
+    line-height: 22px;
+    paddind-top: 6px;
+    font-size: 16px;
+    position: absolute; }
+  section .zaixianzixun .oz {
+    left: 40px;
+    top: 0;
+    border-bottom: 1px solid #c7a774;
+    color: #c7a774; }
+  section .zaixianzixun .dw {
+    left: 150px;
+    top: 0; }
+section .zixun {
+  width: 250px;
+  margin-top: 30px;
+  overflow: hidden; }
+  section .zixun a {
+    padding-left: 5px;
+    display: block;
+    height: 25px;
+    width: 78px;
+    line-height: 25px;
+    float: left;
+    position: relative; }
+    section .zixun a i {
+      display: inline-block;
+      width: 6px;
+      height: 10px;
+      margin-left: 5px;
+      background: url("http://s.maiyaole.com/images/201306/images/just_index.png")-15px -452px; }
+  section .zixun a:hover {
+    text-decoration: underline; }
+section .wenzhen {
+  position: absolute;
+  left: 0;
+  top: 30px;
+  height: 125px;
+  width: 220px;
+  padding-left: 30px; }
+  section .wenzhen span {
+    display: block;
+    width: 72px;
+    height: 72px;
+    cursor: pointer;
+    float: left;
+    margin: 15px 20px 4px 10px; }
+  section .wenzhen .zonghe {
+    background: url("http://s.maiyaole.com/images/201612/icon_4.png") no-repeat; }
+  section .wenzhen .erke {
+    background: url("http://s.maiyaole.com/images/201612/icon_3.png"); }
+section .online-wenzhen {
+  cursor: pointer; }
+section ol, section ul {
+  padding-left: 0; }
+section .tab1 {
+  overflow: hidden; }
+  section .tab1 li {
+    float: left;
+    font-size: 16px;
+    margin-left: 20px;
+    width: 64px;
+    height: 21px;
+    padding: 2px; }
+  section .tab1 .fuwu {
+    color: #c7a774;
+    border-bottom: 1px solid #c7a774; }
+section .promise {
+  overflow: hidden; }
+  section .promise span {
+    display: block;
+    height: 16px;
+    width: 60px;
+    padding-top: 49px;
+    float: left;
+    cursor: pointer; }
+    section .promise span p {
+      margin: 0;
+      color: #c7a774; }
+  section .promise span :hover {
+    background-position-y: -42px; }
+  section .promise span:nth-child(1) {
+    background: url("http://s.maiyaole.com/images/201306/images/icon_gonggao.png") no-repeat -30px -37px; }
+  section .promise span:nth-child(2) {
+    background: url("http://s.maiyaole.com/images/201306/images/icon_gonggao.png") no-repeat -90px -37px; }
+  section .promise span:nth-child(3) {
+    background: url("http://s.maiyaole.com/images/201306/images/icon_gonggao.png") no-repeat -145px -37px; }
+  section .promise span:nth-child(4) {
+    background: url("http://s.maiyaole.com/images/201306/images/icon_gonggao.png") no-repeat -203px -37px; }
+
 .louti {
   position: fixed;
   top: 90px;
@@ -162,5 +313,107 @@ header > .wrap li {
     width: 38px;
     margin: 0;
     display: none; }
+
+.return {
+  position: fixed;
+  bottom: 10px;
+  right: 28px; }
+  .return a {
+    display: block; }
+  .return li {
+    position: relative; }
+  .return span {
+    display: block;
+    height: 52px;
+    width: 52px;
+    text-align: center;
+    line-height: 26px; }
+  .return .top {
+    background: url("../../img/common_sprite.png"); }
+  .return li:nth-child(1) .top {
+    background-position: 0 -622px; }
+  .return li:nth-child(2) .top {
+    background-position: 0 -673px; }
+  .return li:nth-child(3) .top {
+    background-position: 0 -724px; }
+  .return li:nth-child(4) .top {
+    background-position: 0 -775px; }
+  .return .bg {
+    font-size: 18px;
+    background: red;
+    width: 52px;
+    height: 52px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none; }
+  .return .online em {
+    display: block;
+    font-style: normal;
+    cursor: pointer;
+    position: relative; }
+  .return .online div {
+    width: 360px;
+    height: 205px;
+    position: absolute;
+    left: -360px;
+    top: 0;
+    border: 1px red solid; }
+    .return .online div a {
+      padding-left: 10px;
+      display: block;
+      width: 58px;
+      height: 39px;
+      border: 1px solid #999;
+      float: left;
+      line-height: 39px;
+      text-align: left;
+      padding-left: 30px;
+      background: url("http://s.maiyaole.com/images/201306/img/yw_talk.gif") no-repeat 10px 10px; }
+    .return .online div a:hover {
+      text-decoration: underline; }
+  .return .chart .top {
+    position: relative; }
+  .return .chart em {
+    font-style: normal;
+    display: block;
+    font-size: 12px;
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    background: red;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+    position: absolute;
+    left: 27px;
+    top: 5px; }
+  .return .chart .bg div {
+    position: absolute;
+    left: -270px;
+    top: 0;
+    width: 230px;
+    height: 226px;
+    border: 1px solid red;
+    padding: 30px 0 0 40px; }
+    .return .chart .bg div em {
+      display: block;
+      height: 76px;
+      width: 104px;
+      background: url("../../img/common_sprite.png") 0 -384px;
+      left: 40px;
+      top: 30px; }
+    .return .chart .bg div p {
+      position: absolute;
+      color: #999;
+      font-size: 14px;
+      display: block;
+      width: 150px;
+      height: 40px;
+      left: 120px;
+      top: 30px;
+      margin: 0; }
 
 /*# sourceMappingURL=index.css.map */

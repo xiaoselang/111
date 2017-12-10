@@ -29,13 +29,13 @@
             <h2>Hi，欢迎登录！
                 <p>还不是1药网会员？<a href="register.html">免费注册</a></p>
             </h2>
-            <form action="">
-                <div class="tel"><input type="text"placeholder="邮箱/手机号/用户名"></div>
-                <div class="pwd"><input type="text"placeholder="登录密码"></div>
+            <form action="php/log.php">
+                <div class="tel"><input type="text"placeholder="邮箱/手机号/用户名" name="tel"></div>
+                <div class="pwd"><input type="password"placeholder="登录密码" name="pwd"></div>
                 <div class="keycode"><input type="text"placeholder="验证码"><span></span><a href="javascript:void(0)">换一张</a>
-                    <p>请输入验证密码</p><p>验证码错误</p></div>
-                <div class="check"><input type="checkbox"checked><p>我已阅读并同意 </p></div>
-                <div class="btn"><input type="button" value="登录"></div>
+                    <p class="hide">请输入验证密码</p><p class="hide">验证码错误</p></div>
+                <div class="check"><input type="checkbox"checked><p>两周内免登陆</p></div>
+                <div class="btn"><input type="submit" value="登录"></div>
             </form>
             <div class="pay">
                 <p>使用合作伙伴账号登录：</p>
@@ -44,25 +44,27 @@
                     <li><a href="javascript:void(0)"></a></li>
                     <li><a href="javascript:void(0)"></a></li>
                 </ol>
-                <span>更多合作网站<em></em></span>
+                <span>更多合作网站<em></em>
                 <ol class="more">
                     <li><a href="javascript:void(0)"></a></li>
                     <li><a href="javascript:void(0)"></a></li>
                     <li><a href="javascript:void(0)"></a></li>
                     <li><a href="javascript:void(0)"></a></li>
                 </ol>
+                </span>
+
             </div>
         </div>
         <div id="telres">
             <h2>Hi，欢迎登录！
                 <p>还不是1药网会员？<a href="register.html">免费注册</a></p>
             </h2>
-            <form action="">
-                <div class="tel"><input type="text"placeholder="请输入你的手机号码"></div>
+            <form action="php/log.php">
+                <div class="tel"><input type="text"placeholder="请输入你的手机号码" name="tel"></div>
                 <div class="keycode"><input type="text"placeholder="验证码"><span></span><a href="javascript:void(0)">换一张</a>
-                    <p>请输入验证密码</p><p>验证码错误</p></div>
+                    <p class="hide">请输入验证密码</p><p class="hide">验证码错误</p></div>
                 <div class="check"><input type="checkbox"checked><p>两周内免登陆 </p></div>
-                <div class="btn"><input type="button" value="登录"></div>
+                <div class="btn"><input type="submit" value="登录"></div>
             </form>
             <div class="pay">
                 <p>使用合作伙伴账号登录：</p>
@@ -71,13 +73,14 @@
                     <li><a href="javascript:void(0)"></a></li>
                     <li><a href="javascript:void(0)"></a></li>
                 </ol>
-                <span>更多合作网站<em></em></span>
-                <ol class="more">
+                <span>更多合作网站<em></em><ol class="more">
                     <li><a href="javascript:void(0)"></a></li>
                     <li><a href="javascript:void(0)"></a></li>
                     <li><a href="javascript:void(0)"></a></li>
                     <li><a href="javascript:void(0)"></a></li>
                 </ol>
+                </span>
+
             </div>
         </div>
     </div>

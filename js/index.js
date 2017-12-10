@@ -2,6 +2,24 @@
  * Created by Administrator on 2017\12\6 0006.
  */
 $(function () {
+
+    function Login(){
+
+    }
+    Login.prototype.init=function(){
+        console.log(1);
+        console.log($.cookie('tel&pwd'));
+        if($.cookie('tel&pwd')){
+            console.log($.cookie('tel&pwd'));
+        }
+    }
+    new Login().init();
+    function Louti(){
+
+    }
+
+
+
     $.ajax({
         url:"php/receipt.json",
     }).done(function(result){

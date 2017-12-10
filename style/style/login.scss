@@ -43,6 +43,7 @@ section {
     border-top: 2px solid #0C6796;
     overflow: hidden;
     position: relative;
+    height: 540px;
     > ul {
       overflow: hidden;
       li {
@@ -175,7 +176,7 @@ section {
         overflow: hidden;
         position: relative;
         .bat {
-
+          z-index: 99;
           overflow: hidden;
           float:left;
           li {
@@ -199,10 +200,12 @@ section {
         }
         span{
           display: block;
+          margin-left:200px;
           width: 100px;
-          height: 15px;
+          height: 70px;
           font-size: 14px;
-          overflow: hidden;
+          //overflow: hidden;
+          position: absolute;
         }
         em{
           display: block;
@@ -215,7 +218,10 @@ section {
             display: none;
             overflow: hidden;
             position: absolute;
-            top:100px;
+            top:50px;
+            left:-200px;
+            width: 250px;
+
             li{
               float:left;
               a{
@@ -362,7 +368,7 @@ section {
         overflow: hidden;
         position: relative;
         .bat {
-
+          z-index: 99;
           overflow: hidden;
           float:left;
           li {
@@ -386,10 +392,12 @@ section {
         }
         span{
           display: block;
+          margin-left:200px;
           width: 100px;
-          height: 15px;
+          height: 70px;
           font-size: 14px;
-          overflow: hidden;
+          //overflow: hidden;
+          position: absolute;
         }
         em{
           display: block;
@@ -402,7 +410,10 @@ section {
           display: none;
           overflow: hidden;
           position: absolute;
-          top:100px;
+          top:50px;
+          left:-200px;
+          width: 250px;
+
           li{
             float:left;
             a{
